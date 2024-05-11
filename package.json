@@ -5,12 +5,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon -r dotenv/config src/index.js"
   },
   "keywords": [
     "backend",
     "nodejs"
   ],
   "author": "AdarshaBairy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  }
 }
