@@ -1,0 +1,16 @@
+{
+  "name": "backendproject",
+  "version": "1.0.0",
+  "description": "Basic project to learn backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "nodejs"
+  ],
+  "author": "AdarshaBairy",
+  "license": "ISC"
+}
